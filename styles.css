@@ -17,23 +17,35 @@ body {
     box-shadow: none;
     border-radius: 24px;
     z-index: 3;
-    height: 44px;
+    height: 46px;
     margin: 0 auto;
-    width: 482px;
+    width: 582px;
 }
 #search {
     flex: 1;
     display: flex;
-    padding: 5px 8px 0 16px;
-    padding-left: 14px;
+    padding: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0%);
+    font-size: 16px;
 }
 
 #magnify {
-    display: flex;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
     padding: 5px 8px 0 16px;
+    padding-right: 13px;
     padding-left: 14px;
     outline: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    color: #9AA0A6;
+    background-color: rgba(0, 0, 0, 0%)
 }
 #buttonsDiv {
     padding-top: 18px;
