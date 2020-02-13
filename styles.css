@@ -1,6 +1,69 @@
 body {
     display: block;
     text-align: center;
+    font-family: arial, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    line-height: 28px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    opacity: .75;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 13px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.leftnav {
+    float:left;
+}
+
+.rightnav {
+    float: right;
+}
+
+#appbox {
+    cursor: pointer;
+    opacity: .55;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 8px;
+    height: 30px;
+    width: 30px;
+    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    background-position: -138px -33px;
+    border-radius: 2px;
+}
+
+#signin {
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    border: 1px solid rgb(68, 143, 244);
+    border-radius: 2px;
+    font-weight: bold;
+    outline: none;
+    background: rgb(68, 143, 244);
+    margin-top: 13px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 #google {
