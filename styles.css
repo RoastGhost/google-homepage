@@ -64,6 +64,7 @@ li a:hover {
     margin-top: 13px;
     padding-top: 0px;
     padding-bottom: 0px;
+    margin-right: 10px;
 }
 
 #google {
@@ -127,4 +128,44 @@ li a:hover {
     line-height: 27px;
     cursor: pointer;
     margin: 5px;
+}
+
+#fbar {
+    background: #f2f2f2;
+    line-height: 15px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    font-size: 10pt;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px 0 10px;
+    overflow: hidden;
+}
+
+.leftfbar {
+    display: block;
+    float:left;
+    line-height: 15px;
+    color: #000;
+    opacity: .75;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 10pt;
+}
+
+.rightfbar {
+    display: block;
+    float: right;
+    line-height: 15px;
+    color: #000;
+    opacity: .75;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 10pt;
 }
